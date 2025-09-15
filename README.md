@@ -71,3 +71,30 @@ All tenants share the **same database and schema**. Tenant data is distinguished
 ```bash
 git clone https://github.com/abhinavKrishnanE/Multi_Tenant_Systems.git
 cd Multi_Tenant_Systems
+```
+### 2. Add .env file
+
+- Create a .env file in the root of the project.
+- Add your database credentials:
+DB_NAME=your_db_name 
+DB_USER=your_db_user 
+DB_PASSWORD=your_db_password 
+DB_HOST=your_db_host 
+DB_PORT=your_db_port
+
+### 3. Choose a multi-tenancy approach
+
+- Navigate to the folder of your choice (seperatedb, seperateschema, or sharedschema).
+- Each folder contains a Django project configured for that specific approach.
+
+### 4. Run the project
+
+```bash
+python manage.py migrate
+python manage.py runserver
+```
+
+### Notes:
+- This repository is intended for learning purposes.
+- Each approach shows a working setup to understand data isolation techniques.
+- Developers can experiment with creating tenants, isolating data, and testing queries to see how each approach behaves.
