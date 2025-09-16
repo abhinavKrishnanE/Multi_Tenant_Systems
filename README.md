@@ -75,12 +75,12 @@ cd Multi_Tenant_Systems
 ### 2. Add .env file
 
 - Create a .env file in the root of the project.
-- Add your database credentials:
-DB_NAME=your_db_name 
-DB_USER=your_db_user 
-DB_PASSWORD=your_db_password 
-DB_HOST=your_db_host 
-DB_PORT=your_db_port
+- Add your database credentials:<br>
+DB_NAME=your_db_name <br>
+DB_USER=your_db_user <br>
+DB_PASSWORD=your_db_password <br>
+DB_HOST=your_db_host <br>
+DB_PORT=your_db_port<br>
 
 ### 3. Choose a multi-tenancy approach
 
